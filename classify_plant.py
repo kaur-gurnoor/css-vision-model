@@ -1,3 +1,5 @@
+# Generative AI was used to help debugg this code
+
 import cv2
 import numpy as np
 import sys
@@ -49,3 +51,4 @@ if __name__ == "__main__":
         print("Usage: py classify_plant.py path/to/image.png")
     else:
         analyze_image(sys.argv[1])
+
